@@ -22,3 +22,23 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven build mapa
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Razvojna okolja (IDE)
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Okoljske spremenljivke in lokalne nastavitve (12-factor princip)
+.env
+*.local
+
+# Sistemske datoteke (macOS / Windows)
+.DS_Store
+Thumbs.db
